@@ -43,8 +43,10 @@ gulp.task("libs", function () {
     return gulp.src([
         'es6-shim/es6-shim.min.js',
         'es6-shim/es6-shim.map',
+        'core-js/client/shim.min.js',
         'zone.js/dist/zone.js',
         'reflect-metadata/reflect.js',
+        'refelct-metadata/reflect.js.map',
         'systemjs/dist/system-polyfills.js',
         'angular2/bundles/angular2-polyfills.js',
         'angular2/es6/dev/src/testing/shims_for_IE.js',
