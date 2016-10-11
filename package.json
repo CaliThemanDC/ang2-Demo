@@ -1,5 +1,5 @@
 {
-  "name": "angular-quickstart",
+  "name": "my-ang2Demo",
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "scripts": {
@@ -19,7 +19,7 @@
     "webdriver:update": "webdriver-manager update"
   },
   "keywords": [],
-  "author": "",
+  "author": "Khalil Boyd",
   "licenses": [
     {
       "type": "MIT",
@@ -41,9 +41,14 @@
     "bootstrap": "^3.3.7",
     "systemjs": "0.19.39",
     "core-js": "^2.4.1",
+    "es6-shim": "^0.35.0",
     "reflect-metadata": "^0.1.8",
     "rxjs": "5.0.0-beta.12",
-    "zone.js": "^0.6.25"
+    "zone.js": "^0.6.25",
+    "gulp": "3.9.1",
+    "gulp-sourcemaps": "2.0.0-alpha",
+    "del": "2.2.0"
+
   },
   "devDependencies": {
     "concurrently": "^3.0.0",
