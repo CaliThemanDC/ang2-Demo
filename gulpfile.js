@@ -42,6 +42,9 @@ gulp.task("assets", function(){
 gulp.task("libs", function () {
     return gulp.src([
         'es6-shim/es6-shim.min.js',
+        'es6-shim/es6-shim.map',
+        'zone.js/dist/zone.js',
+        'reflect-metadata/reflect.js',
         'systemjs/dist/system-polyfills.js',
         'angular2/bundles/angular2-polyfills.js',
         'angular2/es6/dev/src/testing/shims_for_IE.js',
